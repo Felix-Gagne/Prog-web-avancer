@@ -1,0 +1,5 @@
+<div *ngIf="hasCookie">J'ai un cookie</div>
+<div *ngIf="!hasCookie">Je n'ai pas de cookie</div>
+
+<button (click)="addCookie()">Ajouter un cookie</button>
+<button (click)="removeCookie()">Supprimer un cookie</button>
